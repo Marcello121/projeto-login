@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+body{
+    height: 100vh;
+    width: 100vh;
+
+    background-color: bisque;
+}
+
+main{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+
+    background-color: black;
+    width: 250px;
+    height: 500px;
+
+    text-align: center;
+    border-radius: 15px;
+
+    box-shadow: 15px 15px 3px rgba(0, 0, 0, 0.596);
+ 
+    /* SEMPRE que tiver um TRANSFORM ou TRANSITION, você deve colocar ele na última linha do seletor */
+
+    transition: width 0.7s, height 0.7s ease;
+    transform: translate(-50%, -50%);
+
+    
+
+
+    
+}
+
+div#img{
+    background-image: url(/imagens/v2.png);
+    background-position: center right;
+    
+    width: 250px;
+    height: 195px;
+
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+div#secLogin{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+    border-radius: 15px;
+    
+
+    
+
+}
+
+
+
+.material-icons{
+    padding: 5px;
+}
+
+input#login, input#senha{
+    margin-right: 15px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: crimson;
+
+    padding: 3px;
+
+    transform: translateY(-5px);
+}
+
+input#entrar, input#esqueci{
+    width: 180px;
+
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px;
+    margin-bottom: 5px;
+
+    font-size: 1em;
+    
+
+}
+
+input#entrar{
+    background-color: crimson;
+    color: white;
+}
+
+input#entrar:hover{
+    cursor: pointer;
+}
+
+input#esqueci:hover{
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+}
+
+.material-icons{
+    
+    height: 30px;
+    border-radius: 5px 5px px 0px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Login v2</title>
+    <link rel="stylesheet" href="estilos/mobile.css">
+    <link rel="stylesheet" href="estilos/geral.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+</head>
+<body>
+    <main>
+        <div id="img"></div>
+
+        
+        <form action="login.php" method="post" autocomplete="on"></form>
+        
+        <div id="secLogin">
+            <h1>Bem-vindo</h1>
+            <p>Faça o login</p>
+            <label for="login"></label>
+            <p class="ver"><i class="material-icons">person</i><input type="text" name="" id="login" placeholder=" Seu email" autocomplete="email" maxlength="25"></p>
+
+            <label for="senha"></label>
+            <p class="ver"><i class="material-icons">key</i><input type="password" id="senha" required minlength="8" placeholder=" Sua senha" autocomplete="current-password"></p>
+
+            <p><input type="submit" name="" id="entrar" value="Entrar"></p>
+            <p><input type="submit" name="" id="esqueci" value="Esqueci a senha"></p>
+        </div>
+    </main>
+    
+</body>
+</html>
