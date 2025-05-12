@@ -59,6 +59,10 @@ Grandes telas: 1920 px - 4k
         border-bottom: 15px;
     }
 
+    input#esqueci{
+    margin-bottom: 10px;
+    }
+
     
 
     
@@ -109,6 +113,10 @@ Grandes telas: 1920 px - 4k
 
     input#entrar, input#esqueci{
         border-bottom: 15px;
+    }
+
+    input#esqueci{
+    margin-bottom: 10px;
     }
 
     
@@ -163,6 +171,10 @@ Grandes telas: 1920 px - 4k
         border-bottom: 15px;
     }
     
+    input#esqueci{
+    margin-bottom: 10px;
+    }
+    
 
 }
 
@@ -206,6 +218,10 @@ Grandes telas: 1920 px - 4k
 
     input#entrar, input#esqueci{
         border-bottom: 15px;
+    }
+
+    input#esqueci{
+    margin-bottom: 10px;
     }
     
 

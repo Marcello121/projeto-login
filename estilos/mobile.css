@@ -49,6 +49,8 @@ div#img{
 
     border-radius: 10px 10px 0px 0px;
 
+   
+
 }
 
 div#secLogin{
@@ -56,6 +58,11 @@ div#secLogin{
     color: white;
     
     border-radius: 15px;
+
+    
+    
+
+    
 
     
     
@@ -87,11 +94,16 @@ input#entrar, input#esqueci{
     border-radius: 10px;
     border-style: none;
     padding: 10px;
-    margin-bottom: 5px;
+    
+    
 
     font-size: 1em;
     
 
+}
+
+input#esqueci{
+    margin-bottom: 10px;
 }
 
 input#entrar{
