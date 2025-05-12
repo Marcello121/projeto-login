@@ -41,7 +41,7 @@ main{
 }
 
 div#img{
-    background-image: url(/imagens/v2.png);
+    background-image: url(/v2.png);
     background-position: center right;
     
     width: 250px;
