@@ -41,7 +41,7 @@ main{
 }
 
 div#img{
-    background-image: url(/v2.png);
+    background-image: url(../imagens/v2.png);
     background-position: center right;
     
     width: 250px;
@@ -56,6 +56,8 @@ div#secLogin{
     color: white;
     
     border-radius: 15px;
+
+    
     
 
     
